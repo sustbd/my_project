@@ -1,0 +1,18 @@
+git --version
+git config --global user.name "write the git project name"
+
+git config --global user.email "email"
+git config --list 
+
+copy the git file in to your local computer:
+ command:
+git clone https://github.com/sustbd/my_project.git
+
+first add (staged) file then commit file
+staged means file is ready to be committed
+
+git add file_name
+git add . ( for update all files or txt)
+git commit -m "wirte your message"
+git status
+git push origin main
